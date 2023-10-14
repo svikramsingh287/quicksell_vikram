@@ -1,0 +1,97 @@
+/* styles.css */
+/* Set the background color for the entire page */
+body {
+    background-color: #f5f5f5; /* You can change this color to any normal color you prefer */
+    text-rendering: optimizeLegibility;
+    font-family: Calibri, sans-serif;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  /* Header styles with a different background color */
+  header {
+    background-color: #3498db; /* Set the background color for the header */
+    padding: 20px 0; /* Adjust the padding to set the desired header height */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  /* H1 (title) styles */
+  #groupingTitle {
+    margin: 0; /* Remove margin to avoid spacing at the top */
+  }
+  
+  /* Add some basic CSS styles for better presentation */
+  .column {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    max-width: 100%;
+    border-radius: 10px;
+    list-style-type: none;
+  }
+  
+  .column-heading {
+    font-weight: bold;
+    font-size: 16px; /* You can adjust the size as needed */
+  }
+  
+  /* Add a class for the sky blue background */
+  #belowLine {
+    background-color: #f5f5f5; /* Use the same background color as the page */
+  }
+  
+  /* Add a class for the light blue background */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown button styles */
+  .dropbtn {
+    background-color: #87b5d4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Dropdown content styles (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color on hover */
+  .dropdown-content a:hover {
+    background-color: #549ac9;
+    color: white;
+  }
+  
+  /* Show the dropdown menu when the button is clicked */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
