@@ -1,1 +1,0 @@
-# quicksell_vikram
